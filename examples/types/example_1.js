@@ -1,16 +1,5 @@
-console.log(typeof 'string');
-console.log(typeof new String('string'));
+const x = 'string';
+const y = new String('string');
 
-console.log(typeof 1);
-console.log(typeof new Number(1));
-
-console.log(typeof {});
-console.log(typeof new Object({}));
-
-console.log(typeof undefined);
-console.log(typeof null);
-
-console.log(typeof (function () {}));
-console.log(typeof (() => {}));
-
-console.log(typeof NaN);
+console.log(typeof x);
+console.log(typeof y);

@@ -1,19 +1,12 @@
 class A {
-    constructor() {}
-
-    method() {
-        console.log('method from A');
+    constructor() {
+        this.method = () => console.log('method from A');
     }
 }
 
 class B extends A {
-    constructor() {
-        super();
-    }
-
-    method() {
-        console.log('method from B');
-    }
+    constructor() { super(); }
+    method() { console.log('method from B'); }
 }
 
 const b = new B();
