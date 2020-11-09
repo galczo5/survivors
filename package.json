@@ -1,0 +1,22 @@
+{
+  "name": "survivors",
+  "version": "1.0.0",
+  "description": "Repo with code examples and recommended resources for my speech: \"How to survive every JavaScript interview\".",
+  "scripts": {
+    "carbon": "node ./node_modules/carbon-now-cli/cli.js",
+    "generate": "node generate.sh"
+  },
+  "devDependencies": {
+    "carbon-now-cli": "^1.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galczo5/survivors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galczo5/survivors/issues"
+  },
+  "homepage": "https://github.com/galczo5/survivors#readme"
+}
